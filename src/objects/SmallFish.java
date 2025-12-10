@@ -63,6 +63,10 @@ public class SmallFish extends GameCharacter implements Holder, Deadly, Transpos
 		//A função movementVector gera uma nova referência e quando fazemos dir == Direction.DOWN.asVector() não vai comparar bem, porque estamos a comparar as
 		//referências e não os valores. Temos de fazer dir.equals(Direction.DOWN.asVector())
 		Vector2D dir = Vector2D.movementVector(this.getPosition(), obj.getPosition());
+		if(obj instanceof Detonator){
+			getRoom().explodeAllBombs();
+			return false;
+		}
 		if (killCondition(obj)) {
 			death();
 			return true;

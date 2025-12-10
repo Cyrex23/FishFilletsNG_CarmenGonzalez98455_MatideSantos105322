@@ -212,6 +212,8 @@ public class Room {
 				return new HoledWall(position, r);
 			case 'F':
 				return new Buoy(position, r);
+			case 'M':
+				return new Detonator(position, r);
 			default:
 				return new Water(position, r);
 		}
@@ -257,4 +259,24 @@ public class Room {
 			if (objects.get(i) instanceof Anchor anchor) anchor.setPushedOnce(false);
 		}
 	}
+
+	public void explodeAllBombs(){
+		List<GameObject> list = listBombs();
+		for(GameObject obj: list){
+			if(obj instanceof  Bomb){
+				((Bomb) obj).explode((Bomb) obj);
+			}
+		}
+	}
+
+	public List<GameObject> listBombs(){
+		List<GameObject> list = new ArrayList<>();
+		for(GameObject obj: objects){
+			if(obj instanceof  Bomb){
+				list.add(obj);
+			}
+		}
+		return list;
+	}
+
 }

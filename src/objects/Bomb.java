@@ -104,6 +104,7 @@ public class Bomb extends Movable implements Explosive {
         }
     }
 
+
     @Override
     public List<GameObject> createBloodPattern(GameObject obj) {
         List<GameObject> bloods = new ArrayList<>();
