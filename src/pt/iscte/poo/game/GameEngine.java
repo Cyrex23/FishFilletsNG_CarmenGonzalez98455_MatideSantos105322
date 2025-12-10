@@ -17,6 +17,7 @@ import pt.iscte.poo.utils.SoundManager;
 
 //Exercicio de POO: Olá Hello World
 //Magikarp
+//Envia-me os comentarios dos exercicios
 public class GameEngine implements Observer {
 
 	private Map<String,Room> rooms;
