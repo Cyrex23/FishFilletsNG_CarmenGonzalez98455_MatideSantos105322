@@ -63,7 +63,7 @@ if(obj instanceof Detonator){
 		}
 
 
-Se o peixe colide com o smallfish dá trigger do explodeAllbombs e não devolve colisão movendo-se para cima do detonator
+Se o Smallfish colide com o detonator dá trigger do explodeAllbombs e não devolve colisão movendo-se para cima do detonator
 
  */
 public class GameEngine implements Observer {
