@@ -30,6 +30,10 @@ a funçao explodeAllBombs usa essa lista cópia e assim consegue ir a todas as b
 
 Não deu para usar a thread da class da Bomba porque a função tinha que ser static para se poder usar de fora. Só a class bomba é que consegue invocar as threads das explosões
 
+Portanto a solução foi invocar a funçao explosion NORMALMENTE por cada obj da bomba, dai fazermos um ciclo, e a cada bomba explodimos.
+
+TIVEMOS DE USAR A LISTA CÓPIA DE BOMBAS PORQUE ALTERAR O TAMANHO DA LISTA OBJECTS CRASHA O PROGRAMA
+
 No Room coloquei estas duas funções
 ----------------------------
 public void explodeAllBombs(){
