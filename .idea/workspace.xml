@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee94f37-8fbe-41c3-954e-3805717860e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine$PrintTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine$PrintTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pt/iscte/poo/game/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/iscte/poo/game/GameEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

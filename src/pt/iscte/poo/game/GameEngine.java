@@ -15,7 +15,7 @@ import pt.iscte.poo.utils.Direction;
 import pt.iscte.poo.utils.HighScore;
 import pt.iscte.poo.utils.SoundManager;
 
-//Enunciado de POO:
+//Enunciado de POO: peixe vai para cima do detonador e explode todas as bombas
 public class GameEngine implements Observer {
 
 	private Map<String,Room> rooms;
