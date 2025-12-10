@@ -1,0 +1,10 @@
+ B A     W
+    A    W
+W   XX   W
+WAS AR   W
+W XXXXX  W
+W      FF 
+W         
+WYRRR  R R
+WXXXWWWWWX
+WWTWWWWWWW

@@ -1,0 +1,10 @@
+Anonymous: 1: 5
+Susy: 5: 5
+Luisa Silva: 8: 5
+Ana Casaco: 9: 5
+Francisco: 10: 9
+Matilde Santos: 11: 5
+Abilio: 11: 5
+Carmen Gonzalez: 11: 5
+Aguamarina: 11: 5
+Alexandre Oliveira: 11: 5
