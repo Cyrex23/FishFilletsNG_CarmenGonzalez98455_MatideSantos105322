@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee94f37-8fbe-41c3-954e-3805717860e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objects/Detonator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/objects/Bomb$BombExplosion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/objects/Bomb$BombExplosion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/objects/Bomb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/objects/Bomb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/objects/SmallFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/objects/SmallFish.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine$PrintTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine$PrintTime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/pt/iscte/poo/game/GameEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/pt/iscte/poo/game/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/pt/iscte/poo/game/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Bomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/SmallFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/SmallFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/iscte/poo/game/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/iscte/poo/game/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/iscte/poo/game/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/iscte/poo/game/GameEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

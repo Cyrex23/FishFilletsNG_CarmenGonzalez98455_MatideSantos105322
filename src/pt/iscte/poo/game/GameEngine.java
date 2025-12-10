@@ -19,16 +19,19 @@ import pt.iscte.poo.utils.SoundManager;
 /*
 
 A class Detonator nao tem nada
-No Room coloquei estas duas funções
+
 
 coloquei a ler o detonator pela letra M
 
-
 Aqui nao dá para criar uma thread, tive que criar uma LISTA CÓPIA para não alterar o tamanho da lista objects ao remover a bomba
 
-a funçao listBombs devolve a LISTA CÓPIA
-a funçao explodeAllBombs usa essa lista cópia e assim consegue ir a toda a dar o explode a cada uma
+A funçao listBombs devolve a LISTA CÓPIA
+a funçao explodeAllBombs usa essa lista cópia e assim consegue ir a todas as bombas a dar o explode a cada uma
 
+Não deu para usar a thread da class da Bomba porque a função tinha que ser static para se poder usar de fora. Só a class bomba é que consegue invocar as threads das explosões
+
+No Room coloquei estas duas funções
+----------------------------
 public void explodeAllBombs(){
 		List<GameObject> list = listBombs();
 		for(GameObject obj: list){
@@ -47,7 +50,7 @@ public void explodeAllBombs(){
 		}
 		return list;
 	}
-
+------------------------------------------
 
 No isCollisionCondition do small fish coloquei
 if(obj instanceof Detonator){
@@ -56,7 +59,7 @@ if(obj instanceof Detonator){
 		}
 
 
-Se o peixe colide com o smallfish dá trigger do explodeAllbombs e não devolve colisão movendo para cima do detonator
+Se o peixe colide com o smallfish dá trigger do explodeAllbombs e não devolve colisão movendo-se para cima do detonator
 
  */
 public class GameEngine implements Observer {
